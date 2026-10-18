@@ -2,7 +2,7 @@ const authMiddleware = require("../middleware/authMiddleware");
 const roleMiddleware = require("../middleware/roleMiddleware");
 const express = require("express");
 const mongoose = require("mongoose");
-const Product = require("../models/product");
+const Product = require("../models/Product");
 
 const router = express.Router();
 
