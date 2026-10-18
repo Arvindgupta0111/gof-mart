@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const Order = require("../models/Order");
 console.log("Order model type:", typeof Order);
 console.log("Order.create type:", typeof Order.create);
-const Product = require("../models/product");
+const Product = require("../models/Product");
 const authMiddleware = require("../middleware/authMiddleware");
 
 const router = express.Router();
