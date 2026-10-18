@@ -36,7 +36,7 @@ function addToCart(product) {
 
 
 useEffect(() => {
-  fetch("http://localhost:5000/api/products")
+  fetch("https://gof-mart-api.onrender.com/api/products")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Products load nahi hue");
